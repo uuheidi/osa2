@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const Filter = (props) => {
   return (
-    <p>Filter results with <input name={props.filter} placeholder={props.placeholder} value={props.value} onChange={props.onChange} /></p>
+    <p>Filter results with <input placeholder={props.placeholder} value={props.value} onChange={props.onChange} /></p>
   )
 }
 
